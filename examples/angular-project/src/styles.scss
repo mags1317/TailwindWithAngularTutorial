@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+/* Include Tailwind's base styles */
+@tailwind base;
+
+/* Include Tailwind's component styles */
+@tailwind components;
+
+/* Include Tailwind's utility classes */
+@tailwind utilities;
