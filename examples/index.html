@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Example</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        /* There are situations where custom styles may be necessary or desirable,
+            especially for aspects such as global styles (like body background color and font family)
+            that aren't directly addressed by Tailwind CSS utilities. */
+        body {
+            background-color: #1a202c;
+            color: #e2e8f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto py-12">
+        <h1 class="text-4xl font-bold text-gray-300 mb-8 text-center">Welcome to Tailwind CSS Example</h1>
+
+        <div class="flex justify-center">
+            <div class="bg-gray-800 rounded-lg shadow-lg p-8 max-w-lg w-full text-gray-300">
+                <p class="text-lg text-gray-300">This is a simple card example using Tailwind CSS.</p>
+                <button class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Click Me</button>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center">
+            <p class="text-lg text-gray-300">Tailwind CSS is a utility-first CSS framework that allows you to build custom designs quickly without writing any CSS.</p>
+            <p class="text-lg text-gray-300 mt-4">Learn more at <a href="https://tailwindcss.com/" class="text-blue-500 hover:underline">tailwindcss.com</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
